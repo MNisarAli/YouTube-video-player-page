@@ -16,12 +16,13 @@ body {
     align-items: center;
 }
 
-.left{
+.left {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
     gap: 1rem;
 }
+
 .nav,
 .youtube-logo {
     height: 20px;
@@ -39,7 +40,7 @@ body {
     border: 1px solid #d3d3d3;
     border-radius: 2px 0 0 2px;
     font-size: inherit;
-   
+
 }
 
 .search-button {
@@ -63,4 +64,34 @@ body {
 .channel-avatar {
     border-radius: 50%;
     background-color: #AAA;
+}
+
+.content-box {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 24px;
+}
+
+.primary-box {
+    padding-top: 10px;
+    margin-left: 24px;
+}
+
+.video-container {
+    display: flex;
+    padding:  10px;
+}
+
+.secondary-box {
+    margin-left: 24px;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    background-color: #AAA;
+}
+
+.video-details-section {
+    margin-left: 24px;
 }
