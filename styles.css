@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    margin: 0%;
+}
+
+#main-bar {
+    background-color: white;
+    padding: 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 1rem;
+}
+.nav,
+.youtube-logo {
+    height: 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 0.5;
+    margin: 0 2rem 0 2rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: .5em;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px 0 0 2px;
+    font-size: inherit;
+   
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+    border: 1px solid #d3d3d3;
+    background-color: #F8F8F8;
+    border-left: none;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1rem;
+}
+
+.channel-avatar {
+    border-radius: 50%;
+    background-color: #AAA;
+}
